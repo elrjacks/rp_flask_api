@@ -1,5 +1,5 @@
 # Real Python 
-## Pytho REST APIs With Flask, Connexion, and SQLAlchemy 
+## Python REST APIs With Flask, Connexion, and SQLAlchemy 
 ### Part One 
 
 In this inital part of the project I have learned and covered:
