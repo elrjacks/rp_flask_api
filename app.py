@@ -4,9 +4,9 @@
 
 # access to flask functionality
 from flask import render_template
+
 import config
 from models import Person
-
 # flask application instance called app
 app = config.connex_app
 app.add_api(config.basedir / "swagger.yml")

@@ -1,10 +1,10 @@
 # config.py
 
 import pathlib
-import connexion
-from flask_sqlalchemy import SQLAlchemy
-from flask_marshmallow import Marshmallow
 
+import connexion
+from flask_marshmallow import Marshmallow
+from flask_sqlalchemy import SQLAlchemy
 # point to the directory that the program in running in
 basedir = pathlib.Path(__file__).parent.resolve()
 # create the Connexion app instance and give it the path to the directory that contains the specification file
